@@ -3,6 +3,17 @@
 body {
     font-family: $font-family;
     background-color: $default-background-color;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $default-blue;
+    font-weight: 700;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 button {
@@ -16,6 +27,39 @@ button {
         outline: none;
     }
     &:hover {
+        background-color: rgb(28, 115, 196);
         transition: $default-transition;
     }
+}
+
+.set-appared {
+    width: 250px;
+    border-radius: 2px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.reset {
+    margin: 0;
+    padding: 0;
+}
+
+.center-x-y {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-y {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
