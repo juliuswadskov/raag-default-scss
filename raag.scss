@@ -1,0 +1,21 @@
+@import 'handler/variables.scss';
+
+body {
+    font-family: $font-family;
+    background-color: $default-background-color;
+}
+
+button {
+    background-color: $default-blue;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    transition: $default-transition;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        transition: $default-transition;
+    }
+}
