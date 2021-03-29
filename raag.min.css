@@ -1,0 +1,5 @@
+/*
+ * @copyright {Raag2005}
+ * @license {GNU}
+ */
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;background-color:#f5f5f5;margin:0;padding:0}a{text-decoration:none;color:#368cdd;font-weight:700}a:hover{text-decoration:underline}button{background-color:#368cdd;border:none;color:#fff;padding:8px;border-radius:2px;-webkit-transition:.2s ease-in ease-out;transition:.2s ease-in ease-out}button:focus{outline:0}button:hover{background-color:#1c73c4;-webkit-transition:.2s ease-in ease-out;transition:.2s ease-in ease-out}.set-appared{width:250px;border-radius:2px;height:200px;background-color:#fff;border:1px solid #d3d3d3}.reset{margin:0;padding:0}.center-x-y{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.center-x{position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.center-y{position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
